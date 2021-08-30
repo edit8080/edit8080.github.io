@@ -6,3 +6,14 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+.page__content {
+  font-size: 18px;
+}
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 1em 0;
+}
