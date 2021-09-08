@@ -5,7 +5,7 @@ excerpt: "JavaScript와 SPA"
 categories:
  - JavaScript
 tags:
- - [project], [SPA]
+ - [project, SPA]
 
 toc: true
 toc_sticky: true
