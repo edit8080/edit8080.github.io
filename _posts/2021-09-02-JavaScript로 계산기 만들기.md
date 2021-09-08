@@ -48,7 +48,7 @@ JavaScript로 계산기를 만드는 과정은 다음과 같이 계획하였다.
 입력한 숫자와 연산자는 `expression`이라는 변수에 문자열로 추가하고, 생각한 예외 사항에서 1번과 3번을 처리하기 위해
 각각의 상황을 `befOper`와 `isDouble` 이라는 boolean 변수로 체크했다.
 
-~~~JavaScript
+~~~javascript
 
 const opers = ["+", "-", "*", "/"]; // 연산자
 let expression = ""; // 입력한 수식
@@ -100,7 +100,7 @@ const calculate = (value) => {
 이 과정에서 2번 예외를 처리할 수 있었는데 피연산자를 입력할 때 `num` 변수가 빈 문자열로 되어있다가 연산자를 만나서 이를 Number로 변환하면
 0이 후위 표기식으로 추가되었다.
 
-~~~JavaScript
+~~~javascript
 
 const priority = {
   // 연산자 우선순위
@@ -159,7 +159,7 @@ const makePostfix = () => {
 또한 피연산자를 제공할 때 Number로 형변환을 하여 넘겨주면 실수 타입으로 제공되므로 부동소수점 연산으로 처리된다.
 예외 4번을 처리하기 위해 몫 연산에 대해 제수가 0인 상황과 그 외에 발생할 수 있는 연산 문제를 try~catch 문으로 확인하고 예외 발생시 `calError` 라는 boolean 변수로 확인한다.
 
-~~~JavaScript
+~~~javascript
 
 let calError = false; // 연산 예외 발생
 
