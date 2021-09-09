@@ -130,8 +130,9 @@ export async function getUsers() {
   return data;
 }
 
-// `/users` 페이지 렌더링
+// Use Data
 export async function usersRender() {
+  const $app = document.getElementById("app");
   const users = await getUsers(); // 앞에서 설명한대로 이 부분에도 비동기 처리를 해주어야한다.
   const $el = `
     <h1>Users</h1>
@@ -139,7 +140,8 @@ export async function usersRender() {
       ${users.map((data) => `<li>${data.name}</li>`).join("")}
     </ul>
   `;
-  return $el;
+
+  $app.innerHTML = $el;
 }
 
 ~~~
@@ -152,6 +154,7 @@ export async function usersRender() {
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
+
 
 &lt;참고자료&gt;
 
