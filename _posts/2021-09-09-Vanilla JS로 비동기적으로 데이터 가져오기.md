@@ -34,7 +34,7 @@ published: true
 
 이를 위해서 필요한 json 데이터는 예제를 위한 간단한 json을 제공해주는 [jsonplaceholder](https://jsonplaceholder.typicode.com/) 사이트를 활용하기로 했다.
 
-## 3. Promise를 활용하여 데이터를 Fetch한 다음 페이지 렌더링하기
+## 3. Promise로 데이터 Fetch하기
 
 외부 데이터를 가져오기 위해서 일반적으로 axios 라이브러리를 사용하지만 가장 기본적으로는 `fetch()`함수를 활용한다.
 기존에 `fetch()` 함수를 다루면서 가장 문제가 되었던 점은 API 데이터를 Fetch하는 로직을 다른 파일로 분리하고 GET으로 받은 데이터를
@@ -107,7 +107,7 @@ URL을 파싱하여 사용하는 것은 이전 포스팅을 참고하도록 한�
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## 4. async/await를 활용하여 데이터를 Fetch한 다음 페이지 렌더링하기
+## 4. async/await로 데이터를 Fetch하기
 
 async/await는 ES2017부터 새롭게 등장한 비동기 함수 정의 키워드이다.
 기존 프로그래밍 과제에서 async와 await를 사용하여 비동기 함수를 실행시키고 싶었는데 그럴때마다 데이터가 아닌 Promise 객체가 반환되어 사용할 때 애를 먹었던 경험이 있다.
