@@ -167,9 +167,16 @@ body {
   }
 
   figure {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 1em 0;
+  }
+
+  details > summary {
+    margin: 10px 0;
   }
 }
 
