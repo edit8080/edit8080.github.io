@@ -1,6 +1,6 @@
 ---
 title: "클라이언트 상에서 동작하는 파일 Progressbar 만들기"
-excerpt: "<input type=file /> 이벤트 핸들링"
+excerpt: "`<input type=file />` 이벤트 핸들링"
 
 categories:
   - React
@@ -142,7 +142,7 @@ JS의 폼에서 직접적으로 파일을 다룰 기회가 많지 않았는데 �
 
 <참고자료>
 
-1. [`<input type="file">`](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/file)
+1. [&lt;input type="file"&gt;](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/file)
 2. [FileList](https://developer.mozilla.org/ko/docs/Web/API/FileList)
 3. [FileReader](https://developer.mozilla.org/ko/docs/Web/API/FileReader)
 4. [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
