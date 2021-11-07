@@ -140,7 +140,8 @@ JS의 폼에서 직접적으로 파일을 다룰 기회가 많지 않았는데 �
 
 > 자세한 활용 방법은 하단 참고자료의 `formData`를 살펴보자.
 
-<참고자료>
+&lt;참고자료&gt;
+
 
 1. [&lt;input type="file"&gt;](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/file)
 2. [FileList](https://developer.mozilla.org/ko/docs/Web/API/FileList)
